@@ -1,6 +1,8 @@
 # CS331-resources
+The following README is a reference for creating the Company Database which will be used for our course this semester.
 
-COPY THIS CODE BLOCK
+**COPY THIS CODE BLOCK AND PASTE INTO SQL DEVELOPER**
+
 ```SQL
 ALTER SESSION SET nls_date_format = 'yyyy-mm-dd';
 
@@ -117,3 +119,5 @@ INSERT INTO DEPT_LOCATIONS VALUES (5, 'Bellaire');
 INSERT INTO DEPT_LOCATIONS VALUES (5, 'Sugarland');
 INSERT INTO DEPT_LOCATIONS VALUES (5, 'Houston');
 ```
+
+## Explanation
