@@ -1,6 +1,7 @@
 ## Basic SQL Queries
 
 ```sql
+-- Display all rows from EMPLOYEE Table
 SELECT * FROM EMPLOYEE;
 
 -- Q0
@@ -88,6 +89,10 @@ SELECT E.FName, E.LName, 1.4*E.Salary AS Increased_Sal
 FROM EMPLOYEE E, WORKS_ON W, PROJECT P
 WHERE P.Pname='ProductX' AND W.Pno=P.Pnumber AND E.Ssn=W.Essn;
 
+-- ORDER Clause
+SELECT *
+FROM EMPLOYEE E
+ORDER BY E.LNAME ASC;
 
 -- Insert
 INSERT INTO EMPLOYEE VALUES ('Naren', 'P', 'Khatwani', '999001111', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '123 Spruce St, Plano TX', 'M', 48000, '333445555', 5);
